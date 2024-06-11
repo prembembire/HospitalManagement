@@ -1,0 +1,38 @@
+
+
+    <div class="container-fluid vh-100 d-flex align-items-center justify-content-center">
+      <div class="row">
+        
+        <div class="col-lg-6 d-none d-lg-flex align-items-center justify-content-center ">
+          <img src="../../../assets/Images/Logo.jpeg" class="img-fluid" alt="...">
+        </div>
+        <div class="col-lg-6 d-flex align-items-center justify-content-center">
+          <div class="image-content p-4 bg-white rounded shadow">
+            <form #loginForm="ngForm" (ngSubmit)="login(loginForm)" class="form-signin">
+              <h2 class="form-signin-heading text-center">Login</h2>
+              <div *ngIf="invalidLogin" class="alert alert-danger">Invalid username or password.</div>
+              <div class="form-group">
+                <label for="username" class="sr-only">Email address</label>
+                <input type="email" id="username" name="username" [(ngModel)]="credentials.UserName" 
+                  class="form-control" placeholder="User Name" required>
+              </div>
+              <div class="form-group">
+                <label for="password" class="sr-only">Password</label>
+                <input type="password" id="password" name="password" [(ngModel)]="credentials.Password" 
+                  class="form-control" placeholder="Password" required>
+              </div>
+              <button class="btn btn-lg btn-primary btn-block" type="submit" [disabled]="!loginForm.valid">Log in</button>
+              <div class="row mt-3">
+                <div class="col-md-6 text-left">
+                  <a href="PatientRegister" class="btn btn-link">Don't have an account? Sign up</a>
+                </div>
+                <div class="col-md-6 text-right">
+                  <a href="forgotPassword" class="btn btn-link">Forgot password</a>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  

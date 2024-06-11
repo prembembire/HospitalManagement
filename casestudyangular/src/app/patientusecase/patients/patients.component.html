@@ -1,0 +1,57 @@
+<div class="backgroundimg">
+  <img src="../../../assets/Images/image2.avif"/>
+</div>
+
+
+
+
+<div class="right">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark border-bottom border-body" data-bs-theme="dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="../../../assets/Images/Logo.jpeg" alt="Logo" class="logo">
+      </a>
+      
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" routerLink="Appointments" (click)="showContent()">Your Appointments</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="MedicalRecords" (click)="showContent()">Medical Records</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="BookAppointment" (click)="showContent()">Book Appointments</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="patientProfile" (click)="showContent()">Profile</a>
+          </li>
+
+          <li *ngIf="isUserAuthenticated()" class="nav-item">
+            <a class="nav-link logout" routerLink="patientlogin" (click)="logOut()">
+              <i class="bi bi-box-arrow-right"></i>Logout</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</div>
+
+<div class="background-container">
+  <router-outlet></router-outlet>
+</div>
+
+
+<div *ngIf="dispContent">
+  
+  <div class="box-container">
+    <div class="box box1">
+      <h2>WELCOME TO THE AMAZECARE</h2>
+    </div>
+    
+  </div>
+
+</div>

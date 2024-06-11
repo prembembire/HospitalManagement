@@ -1,0 +1,127 @@
+/* .container {
+    animation: fadeIn 1s ease-in-out;
+   
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    width:max-content;
+    position:auto
+
+    } */
+    
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+        color: white;
+        margin-left: 3px;
+      }
+      
+      
+      form {
+        background-color: #ccc;
+        margin-left: 15%;
+        margin-right: 15%;
+        padding: 20px;
+        border: 2px solid black;
+        border-radius: 10px;
+      }
+      
+      
+      .form-control {
+        padding: 10px;
+        border: 1px solid black; 
+        border-radius: 5px;
+        box-sizing: border-box;
+        background-color: transparent; 
+        color: rgb(0, 0, 0); 
+        width: 100%;
+      }
+      
+      
+      .input-group-text {
+        background-color: transparent; 
+        border: 1px solid black; 
+      }
+      
+      .btn {
+        margin-top: 20px;
+        padding: 10px 20px;
+        border-radius: 5px;
+      }
+      
+      .btn-success {
+        background-color: #28a745;
+        border-color: #28a745;
+      }
+      
+      .btn-success:hover {
+        background-color: #218838;
+        border-color: #1e7e34; 
+      }
+      
+      @keyframes fadeIn {
+      0% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+      }
+      
+      .searchbar {
+      animation: fadeIn 1s ease-in-out; 
+      padding: 20px;
+      margin-left: 50px;
+      border-radius: 10px;
+      text-align:center;
+      }
+      
+      
+      label {
+      color: black;
+      }
+
+      
+
+.col-md-4 {
+  flex: 0 0 33.33%;
+  max-width: 33.33%;
+  padding: 10px;
+}
+
+.card {
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+  background-color: #f5f5f5;
+  padding: 10px;
+}
+
+.card-body {
+  padding: 10px;
+}
+
+.card-text {
+  margin-bottom: 5px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #45a049;
+}
+
+      

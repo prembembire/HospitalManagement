@@ -1,0 +1,26 @@
+.card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card-header {
+  color:black;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.card-body {
+  padding: 1.25rem;
+}
+
+.card-subtitle {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.card-text strong {
+  color: black;
+}

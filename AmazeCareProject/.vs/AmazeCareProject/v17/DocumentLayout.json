@@ -1,0 +1,393 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\2000123601\\Downloads\\AmazecareFullStack-master\\AmazecareFullStack-master\\AmazeCareProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{02DAECD8-0EF7-4E6E-8B5B-1DA20C19A9D7}|AmazeCareProject\\AmazeCareProject.csproj|c:\\users\\2000123601\\downloads\\amazecarefullstack-master\\amazecarefullstack-master\\amazecareproject\\amazecareproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02DAECD8-0EF7-4E6E-8B5B-1DA20C19A9D7}|AmazeCareProject\\AmazeCareProject.csproj|solutionrelative:amazecareproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02DAECD8-0EF7-4E6E-8B5B-1DA20C19A9D7}|AmazeCareProject\\AmazeCareProject.csproj|c:\\users\\2000123601\\downloads\\amazecarefullstack-master\\amazecarefullstack-master\\amazecareproject\\amazecareproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{02DAECD8-0EF7-4E6E-8B5B-1DA20C19A9D7}|AmazeCareProject\\AmazeCareProject.csproj|solutionrelative:amazecareproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02DAECD8-0EF7-4E6E-8B5B-1DA20C19A9D7}|AmazeCareProject\\AmazeCareProject.csproj|c:\\users\\2000123601\\downloads\\amazecarefullstack-master\\amazecarefullstack-master\\amazecareproject\\amazecareproject\\controllers\\appointmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02DAECD8-0EF7-4E6E-8B5B-1DA20C19A9D7}|AmazeCareProject\\AmazeCareProject.csproj|solutionrelative:amazecareproject\\controllers\\appointmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02DAECD8-0EF7-4E6E-8B5B-1DA20C19A9D7}|AmazeCareProject\\AmazeCareProject.csproj|c:\\users\\2000123601\\downloads\\amazecarefullstack-master\\amazecarefullstack-master\\amazecareproject\\amazecareproject\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02DAECD8-0EF7-4E6E-8B5B-1DA20C19A9D7}|AmazeCareProject\\AmazeCareProject.csproj|solutionrelative:amazecareproject\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02DAECD8-0EF7-4E6E-8B5B-1DA20C19A9D7}|AmazeCareProject\\AmazeCareProject.csproj|c:\\users\\2000123601\\downloads\\amazecarefullstack-master\\amazecarefullstack-master\\amazecareproject\\amazecareproject\\controllers\\doctorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02DAECD8-0EF7-4E6E-8B5B-1DA20C19A9D7}|AmazeCareProject\\AmazeCareProject.csproj|solutionrelative:amazecareproject\\controllers\\doctorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02DAECD8-0EF7-4E6E-8B5B-1DA20C19A9D7}|AmazeCareProject\\AmazeCareProject.csproj|c:\\users\\2000123601\\downloads\\amazecarefullstack-master\\amazecarefullstack-master\\amazecareproject\\amazecareproject\\controllers\\patientscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02DAECD8-0EF7-4E6E-8B5B-1DA20C19A9D7}|AmazeCareProject\\AmazeCareProject.csproj|solutionrelative:amazecareproject\\controllers\\patientscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02DAECD8-0EF7-4E6E-8B5B-1DA20C19A9D7}|AmazeCareProject\\AmazeCareProject.csproj|c:\\users\\2000123601\\downloads\\amazecarefullstack-master\\amazecarefullstack-master\\amazecareproject\\amazecareproject\\controllers\\adminscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02DAECD8-0EF7-4E6E-8B5B-1DA20C19A9D7}|AmazeCareProject\\AmazeCareProject.csproj|solutionrelative:amazecareproject\\controllers\\adminscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02DAECD8-0EF7-4E6E-8B5B-1DA20C19A9D7}|AmazeCareProject\\AmazeCareProject.csproj|c:\\users\\2000123601\\downloads\\amazecarefullstack-master\\amazecarefullstack-master\\amazecareproject\\amazecareproject\\models\\appointments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02DAECD8-0EF7-4E6E-8B5B-1DA20C19A9D7}|AmazeCareProject\\AmazeCareProject.csproj|solutionrelative:amazecareproject\\models\\appointments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02DAECD8-0EF7-4E6E-8B5B-1DA20C19A9D7}|AmazeCareProject\\AmazeCareProject.csproj|c:\\users\\2000123601\\downloads\\amazecarefullstack-master\\amazecarefullstack-master\\amazecareproject\\amazecareproject\\models\\medicalrecords.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02DAECD8-0EF7-4E6E-8B5B-1DA20C19A9D7}|AmazeCareProject\\AmazeCareProject.csproj|solutionrelative:amazecareproject\\models\\medicalrecords.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02DAECD8-0EF7-4E6E-8B5B-1DA20C19A9D7}|AmazeCareProject\\AmazeCareProject.csproj|c:\\users\\2000123601\\downloads\\amazecarefullstack-master\\amazecarefullstack-master\\amazecareproject\\amazecareproject\\controllers\\medicalrecordscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02DAECD8-0EF7-4E6E-8B5B-1DA20C19A9D7}|AmazeCareProject\\AmazeCareProject.csproj|solutionrelative:amazecareproject\\controllers\\medicalrecordscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02DAECD8-0EF7-4E6E-8B5B-1DA20C19A9D7}|AmazeCareProject\\AmazeCareProject.csproj|c:\\users\\2000123601\\downloads\\amazecarefullstack-master\\amazecarefullstack-master\\amazecareproject\\amazecareproject\\migrations\\20240303082136_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02DAECD8-0EF7-4E6E-8B5B-1DA20C19A9D7}|AmazeCareProject\\AmazeCareProject.csproj|solutionrelative:amazecareproject\\migrations\\20240303082136_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02DAECD8-0EF7-4E6E-8B5B-1DA20C19A9D7}|AmazeCareProject\\AmazeCareProject.csproj|c:\\users\\2000123601\\downloads\\amazecarefullstack-master\\amazecarefullstack-master\\amazecareproject\\amazecareproject\\migrations\\amazecaredbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02DAECD8-0EF7-4E6E-8B5B-1DA20C19A9D7}|AmazeCareProject\\AmazeCareProject.csproj|solutionrelative:amazecareproject\\migrations\\amazecaredbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02DAECD8-0EF7-4E6E-8B5B-1DA20C19A9D7}|AmazeCareProject\\AmazeCareProject.csproj|c:\\users\\2000123601\\downloads\\amazecarefullstack-master\\amazecarefullstack-master\\amazecareproject\\amazecareproject\\data\\amazecaredbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02DAECD8-0EF7-4E6E-8B5B-1DA20C19A9D7}|AmazeCareProject\\AmazeCareProject.csproj|solutionrelative:amazecareproject\\data\\amazecaredbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02DAECD8-0EF7-4E6E-8B5B-1DA20C19A9D7}|AmazeCareProject\\AmazeCareProject.csproj|c:\\users\\2000123601\\downloads\\amazecarefullstack-master\\amazecarefullstack-master\\amazecareproject\\amazecareproject\\models\\doctors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02DAECD8-0EF7-4E6E-8B5B-1DA20C19A9D7}|AmazeCareProject\\AmazeCareProject.csproj|solutionrelative:amazecareproject\\models\\doctors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02DAECD8-0EF7-4E6E-8B5B-1DA20C19A9D7}|AmazeCareProject\\AmazeCareProject.csproj|c:\\users\\2000123601\\downloads\\amazecarefullstack-master\\amazecarefullstack-master\\amazecareproject\\amazecareproject\\models\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02DAECD8-0EF7-4E6E-8B5B-1DA20C19A9D7}|AmazeCareProject\\AmazeCareProject.csproj|solutionrelative:amazecareproject\\models\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02DAECD8-0EF7-4E6E-8B5B-1DA20C19A9D7}|AmazeCareProject\\AmazeCareProject.csproj|c:\\users\\2000123601\\downloads\\amazecarefullstack-master\\amazecarefullstack-master\\amazecareproject\\amazecareproject\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02DAECD8-0EF7-4E6E-8B5B-1DA20C19A9D7}|AmazeCareProject\\AmazeCareProject.csproj|solutionrelative:amazecareproject\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02DAECD8-0EF7-4E6E-8B5B-1DA20C19A9D7}|AmazeCareProject\\AmazeCareProject.csproj|c:\\users\\2000123601\\downloads\\amazecarefullstack-master\\amazecarefullstack-master\\amazecareproject\\amazecareproject\\models\\authenticatedresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02DAECD8-0EF7-4E6E-8B5B-1DA20C19A9D7}|AmazeCareProject\\AmazeCareProject.csproj|solutionrelative:amazecareproject\\models\\authenticatedresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02DAECD8-0EF7-4E6E-8B5B-1DA20C19A9D7}|AmazeCareProject\\AmazeCareProject.csproj|c:\\users\\2000123601\\downloads\\amazecarefullstack-master\\amazecarefullstack-master\\amazecareproject\\amazecareproject\\models\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02DAECD8-0EF7-4E6E-8B5B-1DA20C19A9D7}|AmazeCareProject\\AmazeCareProject.csproj|solutionrelative:amazecareproject\\models\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89D5B88F-53F4-4563-B490-C2E105EEB6B3}|TestProject1\\TestProject1.csproj|c:\\users\\2000123601\\downloads\\amazecarefullstack-master\\amazecarefullstack-master\\amazecareproject\\testproject1\\admintests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89D5B88F-53F4-4563-B490-C2E105EEB6B3}|TestProject1\\TestProject1.csproj|solutionrelative:testproject1\\admintests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89D5B88F-53F4-4563-B490-C2E105EEB6B3}|TestProject1\\TestProject1.csproj|c:\\users\\2000123601\\downloads\\amazecarefullstack-master\\amazecarefullstack-master\\amazecareproject\\testproject1\\doctorstest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89D5B88F-53F4-4563-B490-C2E105EEB6B3}|TestProject1\\TestProject1.csproj|solutionrelative:testproject1\\doctorstest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89D5B88F-53F4-4563-B490-C2E105EEB6B3}|TestProject1\\TestProject1.csproj|c:\\users\\2000123601\\downloads\\amazecarefullstack-master\\amazecarefullstack-master\\amazecareproject\\testproject1\\appointmentstest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89D5B88F-53F4-4563-B490-C2E105EEB6B3}|TestProject1\\TestProject1.csproj|solutionrelative:testproject1\\appointmentstest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89D5B88F-53F4-4563-B490-C2E105EEB6B3}|TestProject1\\TestProject1.csproj|c:\\users\\2000123601\\downloads\\amazecarefullstack-master\\amazecarefullstack-master\\amazecareproject\\testproject1\\medicalrecordstest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89D5B88F-53F4-4563-B490-C2E105EEB6B3}|TestProject1\\TestProject1.csproj|solutionrelative:testproject1\\medicalrecordstest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89D5B88F-53F4-4563-B490-C2E105EEB6B3}|TestProject1\\TestProject1.csproj|c:\\users\\2000123601\\downloads\\amazecarefullstack-master\\amazecarefullstack-master\\amazecareproject\\testproject1\\globalusings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89D5B88F-53F4-4563-B490-C2E105EEB6B3}|TestProject1\\TestProject1.csproj|solutionrelative:testproject1\\globalusings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\2000123601\\Downloads\\AmazecareFullStack-master\\AmazecareFullStack-master\\AmazeCareProject\\AmazeCareProject\\appsettings.json",
+              "RelativeDocumentMoniker": "AmazeCareProject\\appsettings.json",
+              "ToolTip": "C:\\Users\\2000123601\\Downloads\\AmazecareFullStack-master\\AmazecareFullStack-master\\AmazeCareProject\\AmazeCareProject\\appsettings.json",
+              "RelativeToolTip": "AmazeCareProject\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-09T07:01:29.003Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AdminsController.cs",
+              "DocumentMoniker": "C:\\Users\\2000123601\\Downloads\\AmazecareFullStack-master\\AmazecareFullStack-master\\AmazeCareProject\\AmazeCareProject\\Controllers\\AdminsController.cs",
+              "RelativeDocumentMoniker": "AmazeCareProject\\Controllers\\AdminsController.cs",
+              "ToolTip": "C:\\Users\\2000123601\\Downloads\\AmazecareFullStack-master\\AmazecareFullStack-master\\AmazeCareProject\\AmazeCareProject\\Controllers\\AdminsController.cs",
+              "RelativeToolTip": "AmazeCareProject\\Controllers\\AdminsController.cs",
+              "ViewState": "AQIAAAAAAABNZmZmZuYswAkAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T07:01:29.006Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\2000123601\\Downloads\\AmazecareFullStack-master\\AmazecareFullStack-master\\AmazeCareProject\\AmazeCareProject\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "AmazeCareProject\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\2000123601\\Downloads\\AmazecareFullStack-master\\AmazecareFullStack-master\\AmazeCareProject\\AmazeCareProject\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "AmazeCareProject\\Controllers\\AuthController.cs",
+              "ViewState": "AQIAAO0AAAC2a2ZmZqYlwPcAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T07:01:29.037Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PatientsController.cs",
+              "DocumentMoniker": "C:\\Users\\2000123601\\Downloads\\AmazecareFullStack-master\\AmazecareFullStack-master\\AmazeCareProject\\AmazeCareProject\\Controllers\\PatientsController.cs",
+              "RelativeDocumentMoniker": "AmazeCareProject\\Controllers\\PatientsController.cs",
+              "ToolTip": "C:\\Users\\2000123601\\Downloads\\AmazecareFullStack-master\\AmazecareFullStack-master\\AmazeCareProject\\AmazeCareProject\\Controllers\\PatientsController.cs",
+              "RelativeToolTip": "AmazeCareProject\\Controllers\\PatientsController.cs",
+              "ViewState": "AQIAAG0AAAAARDMzMzP3v4gAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T07:01:29.012Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AppointmentsController.cs",
+              "DocumentMoniker": "C:\\Users\\2000123601\\Downloads\\AmazecareFullStack-master\\AmazecareFullStack-master\\AmazeCareProject\\AmazeCareProject\\Controllers\\AppointmentsController.cs",
+              "RelativeDocumentMoniker": "AmazeCareProject\\Controllers\\AppointmentsController.cs",
+              "ToolTip": "C:\\Users\\2000123601\\Downloads\\AmazecareFullStack-master\\AmazecareFullStack-master\\AmazeCareProject\\AmazeCareProject\\Controllers\\AppointmentsController.cs",
+              "RelativeToolTip": "AmazeCareProject\\Controllers\\AppointmentsController.cs",
+              "ViewState": "AQIAAOoAAACAMzMzM3MlwKIAAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T07:01:28.946Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DoctorsController.cs",
+              "DocumentMoniker": "C:\\Users\\2000123601\\Downloads\\AmazecareFullStack-master\\AmazecareFullStack-master\\AmazeCareProject\\AmazeCareProject\\Controllers\\DoctorsController.cs",
+              "RelativeDocumentMoniker": "AmazeCareProject\\Controllers\\DoctorsController.cs",
+              "ToolTip": "C:\\Users\\2000123601\\Downloads\\AmazecareFullStack-master\\AmazecareFullStack-master\\AmazeCareProject\\AmazeCareProject\\Controllers\\DoctorsController.cs",
+              "RelativeToolTip": "AmazeCareProject\\Controllers\\DoctorsController.cs",
+              "ViewState": "AQIAAGwAAAAAAAAAAAAowIAAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T07:01:28.997Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\2000123601\\Downloads\\AmazecareFullStack-master\\AmazecareFullStack-master\\AmazeCareProject\\AmazeCareProject\\Program.cs",
+              "RelativeDocumentMoniker": "AmazeCareProject\\Program.cs",
+              "ToolTip": "C:\\Users\\2000123601\\Downloads\\AmazecareFullStack-master\\AmazecareFullStack-master\\AmazeCareProject\\AmazeCareProject\\Program.cs",
+              "RelativeToolTip": "AmazeCareProject\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T07:01:29.031Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MedicalRecordsController.cs",
+              "DocumentMoniker": "C:\\Users\\2000123601\\Downloads\\AmazecareFullStack-master\\AmazecareFullStack-master\\AmazeCareProject\\AmazeCareProject\\Controllers\\MedicalRecordsController.cs",
+              "RelativeDocumentMoniker": "AmazeCareProject\\Controllers\\MedicalRecordsController.cs",
+              "ToolTip": "C:\\Users\\2000123601\\Downloads\\AmazecareFullStack-master\\AmazecareFullStack-master\\AmazeCareProject\\AmazeCareProject\\Controllers\\MedicalRecordsController.cs",
+              "RelativeToolTip": "AmazeCareProject\\Controllers\\MedicalRecordsController.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAAwIcAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T07:01:29Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "20240303082136_init.cs",
+              "DocumentMoniker": "C:\\Users\\2000123601\\Downloads\\AmazecareFullStack-master\\AmazecareFullStack-master\\AmazeCareProject\\AmazeCareProject\\Migrations\\20240303082136_init.cs",
+              "RelativeDocumentMoniker": "AmazeCareProject\\Migrations\\20240303082136_init.cs",
+              "ToolTip": "C:\\Users\\2000123601\\Downloads\\AmazecareFullStack-master\\AmazecareFullStack-master\\AmazeCareProject\\AmazeCareProject\\Migrations\\20240303082136_init.cs",
+              "RelativeToolTip": "AmazeCareProject\\Migrations\\20240303082136_init.cs",
+              "ViewState": "AQIAAKkAAAAAAAAAAAAqwL8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T07:01:28.993Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MedicalRecords.cs",
+              "DocumentMoniker": "C:\\Users\\2000123601\\Downloads\\AmazecareFullStack-master\\AmazecareFullStack-master\\AmazeCareProject\\AmazeCareProject\\Models\\MedicalRecords.cs",
+              "RelativeDocumentMoniker": "AmazeCareProject\\Models\\MedicalRecords.cs",
+              "ToolTip": "C:\\Users\\2000123601\\Downloads\\AmazecareFullStack-master\\AmazecareFullStack-master\\AmazeCareProject\\AmazeCareProject\\Models\\MedicalRecords.cs",
+              "RelativeToolTip": "AmazeCareProject\\Models\\MedicalRecords.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAywB0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T07:01:28.986Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Appointments.cs",
+              "DocumentMoniker": "C:\\Users\\2000123601\\Downloads\\AmazecareFullStack-master\\AmazecareFullStack-master\\AmazeCareProject\\AmazeCareProject\\Models\\Appointments.cs",
+              "RelativeDocumentMoniker": "AmazeCareProject\\Models\\Appointments.cs",
+              "ToolTip": "C:\\Users\\2000123601\\Downloads\\AmazecareFullStack-master\\AmazecareFullStack-master\\AmazeCareProject\\AmazeCareProject\\Models\\Appointments.cs",
+              "RelativeToolTip": "AmazeCareProject\\Models\\Appointments.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAswAwAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T07:01:29.009Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AmazeCareDBContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\2000123601\\Downloads\\AmazecareFullStack-master\\AmazecareFullStack-master\\AmazeCareProject\\AmazeCareProject\\Migrations\\AmazeCareDBContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "AmazeCareProject\\Migrations\\AmazeCareDBContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\2000123601\\Downloads\\AmazecareFullStack-master\\AmazecareFullStack-master\\AmazeCareProject\\AmazeCareProject\\Migrations\\AmazeCareDBContextModelSnapshot.cs",
+              "RelativeToolTip": "AmazeCareProject\\Migrations\\AmazeCareDBContextModelSnapshot.cs",
+              "ViewState": "AQIAAPMAAAAAAAAAAAAuwAoBAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T07:01:29.015Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AmazeCareDBContext.cs",
+              "DocumentMoniker": "C:\\Users\\2000123601\\Downloads\\AmazecareFullStack-master\\AmazecareFullStack-master\\AmazeCareProject\\AmazeCareProject\\Data\\AmazeCareDBContext.cs",
+              "RelativeDocumentMoniker": "AmazeCareProject\\Data\\AmazeCareDBContext.cs",
+              "ToolTip": "C:\\Users\\2000123601\\Downloads\\AmazecareFullStack-master\\AmazecareFullStack-master\\AmazeCareProject\\AmazeCareProject\\Data\\AmazeCareDBContext.cs",
+              "RelativeToolTip": "AmazeCareProject\\Data\\AmazeCareDBContext.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABgAAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T07:01:29.019Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Doctors.cs",
+              "DocumentMoniker": "C:\\Users\\2000123601\\Downloads\\AmazecareFullStack-master\\AmazecareFullStack-master\\AmazeCareProject\\AmazeCareProject\\Models\\Doctors.cs",
+              "RelativeDocumentMoniker": "AmazeCareProject\\Models\\Doctors.cs",
+              "ToolTip": "C:\\Users\\2000123601\\Downloads\\AmazecareFullStack-master\\AmazecareFullStack-master\\AmazeCareProject\\AmazeCareProject\\Models\\Doctors.cs",
+              "RelativeToolTip": "AmazeCareProject\\Models\\Doctors.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAswBMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T07:01:29.022Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Patient.cs",
+              "DocumentMoniker": "C:\\Users\\2000123601\\Downloads\\AmazecareFullStack-master\\AmazecareFullStack-master\\AmazeCareProject\\AmazeCareProject\\Models\\Patient.cs",
+              "RelativeDocumentMoniker": "AmazeCareProject\\Models\\Patient.cs",
+              "ToolTip": "C:\\Users\\2000123601\\Downloads\\AmazecareFullStack-master\\AmazecareFullStack-master\\AmazeCareProject\\AmazeCareProject\\Models\\Patient.cs",
+              "RelativeToolTip": "AmazeCareProject\\Models\\Patient.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAwwBMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T07:01:29.025Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Admin.cs",
+              "DocumentMoniker": "C:\\Users\\2000123601\\Downloads\\AmazecareFullStack-master\\AmazecareFullStack-master\\AmazeCareProject\\AmazeCareProject\\Models\\Admin.cs",
+              "RelativeDocumentMoniker": "AmazeCareProject\\Models\\Admin.cs",
+              "ToolTip": "C:\\Users\\2000123601\\Downloads\\AmazecareFullStack-master\\AmazecareFullStack-master\\AmazeCareProject\\AmazeCareProject\\Models\\Admin.cs",
+              "RelativeToolTip": "AmazeCareProject\\Models\\Admin.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T07:01:29.028Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\2000123601\\Downloads\\AmazecareFullStack-master\\AmazecareFullStack-master\\AmazeCareProject\\AmazeCareProject\\Models\\User.cs",
+              "RelativeDocumentMoniker": "AmazeCareProject\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\2000123601\\Downloads\\AmazecareFullStack-master\\AmazecareFullStack-master\\AmazeCareProject\\AmazeCareProject\\Models\\User.cs",
+              "RelativeToolTip": "AmazeCareProject\\Models\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T07:01:29.034Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AuthenticatedResponse.cs",
+              "DocumentMoniker": "C:\\Users\\2000123601\\Downloads\\AmazecareFullStack-master\\AmazecareFullStack-master\\AmazeCareProject\\AmazeCareProject\\Models\\AuthenticatedResponse.cs",
+              "RelativeDocumentMoniker": "AmazeCareProject\\Models\\AuthenticatedResponse.cs",
+              "ToolTip": "C:\\Users\\2000123601\\Downloads\\AmazecareFullStack-master\\AmazecareFullStack-master\\AmazeCareProject\\AmazeCareProject\\Models\\AuthenticatedResponse.cs",
+              "RelativeToolTip": "AmazeCareProject\\Models\\AuthenticatedResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T07:01:29.041Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AdminTests.cs",
+              "DocumentMoniker": "C:\\Users\\2000123601\\Downloads\\AmazecareFullStack-master\\AmazecareFullStack-master\\AmazeCareProject\\TestProject1\\AdminTests.cs",
+              "RelativeDocumentMoniker": "TestProject1\\AdminTests.cs",
+              "ToolTip": "C:\\Users\\2000123601\\Downloads\\AmazecareFullStack-master\\AmazecareFullStack-master\\AmazeCareProject\\TestProject1\\AdminTests.cs",
+              "RelativeToolTip": "TestProject1\\AdminTests.cs",
+              "ViewState": "AQIAAEUAAAAAAAAAAAAwwF8AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T07:01:29.045Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AppointmentsTest.cs",
+              "DocumentMoniker": "C:\\Users\\2000123601\\Downloads\\AmazecareFullStack-master\\AmazecareFullStack-master\\AmazeCareProject\\TestProject1\\AppointmentsTest.cs",
+              "RelativeDocumentMoniker": "TestProject1\\AppointmentsTest.cs",
+              "ToolTip": "C:\\Users\\2000123601\\Downloads\\AmazecareFullStack-master\\AmazecareFullStack-master\\AmazeCareProject\\TestProject1\\AppointmentsTest.cs",
+              "RelativeToolTip": "TestProject1\\AppointmentsTest.cs",
+              "ViewState": "AQIAAFUAAAAAAAAAAAAkwFQAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T07:01:29.05Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "DoctorsTest.cs",
+              "DocumentMoniker": "C:\\Users\\2000123601\\Downloads\\AmazecareFullStack-master\\AmazecareFullStack-master\\AmazeCareProject\\TestProject1\\DoctorsTest.cs",
+              "RelativeDocumentMoniker": "TestProject1\\DoctorsTest.cs",
+              "ToolTip": "C:\\Users\\2000123601\\Downloads\\AmazecareFullStack-master\\AmazecareFullStack-master\\AmazeCareProject\\TestProject1\\DoctorsTest.cs",
+              "RelativeToolTip": "TestProject1\\DoctorsTest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T07:01:29.055Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "GlobalUsings.cs",
+              "DocumentMoniker": "C:\\Users\\2000123601\\Downloads\\AmazecareFullStack-master\\AmazecareFullStack-master\\AmazeCareProject\\TestProject1\\GlobalUsings.cs",
+              "RelativeDocumentMoniker": "TestProject1\\GlobalUsings.cs",
+              "ToolTip": "C:\\Users\\2000123601\\Downloads\\AmazecareFullStack-master\\AmazecareFullStack-master\\AmazeCareProject\\TestProject1\\GlobalUsings.cs",
+              "RelativeToolTip": "TestProject1\\GlobalUsings.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T07:01:29.062Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "MedicalRecordsTest.cs",
+              "DocumentMoniker": "C:\\Users\\2000123601\\Downloads\\AmazecareFullStack-master\\AmazecareFullStack-master\\AmazeCareProject\\TestProject1\\MedicalRecordsTest.cs",
+              "RelativeDocumentMoniker": "TestProject1\\MedicalRecordsTest.cs",
+              "ToolTip": "C:\\Users\\2000123601\\Downloads\\AmazecareFullStack-master\\AmazecareFullStack-master\\AmazeCareProject\\TestProject1\\MedicalRecordsTest.cs",
+              "RelativeToolTip": "TestProject1\\MedicalRecordsTest.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T07:01:29.067Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

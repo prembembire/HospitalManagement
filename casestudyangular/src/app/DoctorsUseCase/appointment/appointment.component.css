@@ -1,0 +1,131 @@
+.green-button {
+    background-color: green;
+    color: white; 
+  }
+  
+  .red-button {
+    background-color: red;
+    color: white;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+  }
+  
+  
+  form {
+    margin-left: 15%;
+    margin-right: 15%;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+  
+  
+  .form-control {
+    padding: 10px;
+    border: 1px solid black; 
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: transparent; 
+    color: rgb(0, 0, 0); 
+    width: 100%;
+  }
+  
+  
+  .input-group-text {
+    background-color: transparent; 
+    border: 1px solid black; 
+  }
+  
+  .btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  
+  .btn-success {
+    background-color: #28a745;
+    border-color: #28a745;
+  }
+  
+  .btn-success:hover {
+    background-color: #218838;
+    border-color: #1e7e34; 
+  }
+  
+  @keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+  }
+  
+  .searchbar {
+  animation: fadeIn 1s ease-in-out; 
+  padding: 20px;
+  margin-left: 50px;
+  border-radius: 10px;
+  text-align:center;
+  }
+  
+  
+  label {
+  color: black;
+  }
+
+  .timeline-container {
+    position: relative;
+    padding: 20px 0;
+  }
+  
+  .timeline {
+    position: relative;
+  }
+  
+  .timeline-item {
+    border-left: 2px solid #007bff;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #f9f9f9;
+  }
+  
+  .timeline-content {
+    margin-left: 20px;
+  }
+  
+  .timeline-item:last-child {
+    margin-bottom: 0;
+  }
+  
+  .timeline-item h4 {
+    margin-top: 0;
+    margin-bottom: 5px;
+  }
+  
+  .timeline-item p {
+    margin: 0;
+  }
+  
+  .timeline-item button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .timeline-item button:hover {
+    background-color: #0056b3;
+  }
+  
+
+  .button{
+    text-align:center;
+    /* padding-left: 300px; */
+  }

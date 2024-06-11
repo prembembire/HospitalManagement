@@ -1,0 +1,17 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-4" *ngFor="let p of getPApp.apps">
+      <div class="card mb-3">
+        <div class="card-header">
+          <h5 class="card-title">{{ p.DoctorName }}</h5>
+          <h6 class="card-subtitle mb-2 text-muted">Appointment ID: {{ p.AppointmentId }}</h6>
+        </div>
+        <div class="card-body">
+          <p class="card-text"><strong>Patient Name:</strong> {{ p.PatientName }}</p>
+          <p class="card-text"><strong>Date:</strong> {{ p.Date | date:'short' }}</p>
+          <p class="card-text"><strong>Status:</strong> {{ p.Status }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

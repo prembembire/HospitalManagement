@@ -1,0 +1,100 @@
+<div class="backgroundimage">
+  <img src="../../../assets/Images/Bg_Image_1.avif"/>
+</div>
+<div class="container">
+  <h2>Doctor Registration</h2>
+    <form #form="ngForm" autocomplete="off" (submit)="onSubmit(form)" class="needs-validation" novalidate>
+      <input type="hidden" name="Id" [value]="dsv.doctors.DoctorId">
+  
+      <div class="row">
+        <div class="col-md-6">
+          <div class="form-group">
+            <label for="Name">Name</label>
+            <div class="input-group">
+              <input id="Name" name="Name" #Name="ngModel" [(ngModel)]="dsv.doctors.Name" placeholder="Name" class="form-control" required />
+              <span class="input-group-text"><i class="bi bi-person"></i></span>
+              <div class="invalid-feedback">Name is required</div>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col-md-6">
+          <div class="form-group">
+            <label for="Specialty">Specialty</label>
+            <div class="input-group">
+              <input id="Specialty" name="Specialty" #Specialty="ngModel" [(ngModel)]="dsv.doctors.Specialty" placeholder="Specialty" class="form-control" required />
+              <span class="input-group-text"><i class="bi bi-briefcase"></i></span>
+              <div class="invalid-feedback">Specialty is required</div>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <div class="row">
+        <div class="col-md-6">
+          <div class="form-group">
+            <label for="ExperienceYears">Experience Years</label>
+            <div class="input-group">
+              <input id="ExperienceYears" name="ExperienceYears" #ExperienceYears="ngModel" [(ngModel)]="dsv.doctors.ExperienceYears" placeholder="Experience Years" class="form-control" required />
+              <span class="input-group-text"><i class="bi bi-clock"></i></span>
+              <div class="invalid-feedback">Experience Years is required</div>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col-md-6">
+          <div class="form-group">
+            <label for="Qualification">Qualification</label>
+            <div class="input-group">
+              <input id="Qualification" name="Qualification" #Qualification="ngModel" [(ngModel)]="dsv.doctors.Qualification" placeholder="Qualification" class="form-control" required />
+              <span class="input-group-text"><i class="bi bi-book"></i></span>
+              <div class="invalid-feedback">Qualification is required</div>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <div class="row">
+        <div class="col-md-6">
+          <div class="form-group">
+            <label for="Designation">Designation</label>
+            <div class="input-group">
+              <input id="Designation" name="Designation" #Designation="ngModel" [(ngModel)]="dsv.doctors.Designation" placeholder="Designation" class="form-control" required />
+              <span class="input-group-text"><i class="bi bi-badge-cc"></i></span>
+              <div class="invalid-feedback">Designation is required</div>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col-md-6">
+          <div class="form-group">
+            <label for="UserName">User Name</label>
+            <div class="input-group">
+              <input id="UserName" name="UserName" #UserName="ngModel" [(ngModel)]="dsv.doctors.UserName" placeholder="User Name" class="form-control" required />
+              <span class="input-group-text"><i class="bi bi-person-circle"></i></span>
+              <div class="invalid-feedback">User Name is required</div>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <div class="row">
+        <div class="col-md-6">
+          <div class="form-group">
+            <label for="Password">Password</label>
+            <div class="input-group">
+              <input id="Password" type="password" name="Password" #Password="ngModel" [(ngModel)]="dsv.doctors.Password" placeholder="Password" class="form-control" required />
+              <span class="input-group-text"><i class="bi bi-lock"></i></span>
+              <div class="invalid-feedback">Password is required</div>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <div class="button">
+        <button class="btn btn-primary btn-center" type="submit" [disabled]="form.invalid">
+          <i class="bi bi-save"></i> Register
+        </button>
+      </div>
+    </form>
+  </div>

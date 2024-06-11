@@ -1,0 +1,97 @@
+
+
+  <div class="container" *ngIf="onlyShowGetPatients">
+    <div class="row">
+      <div class="col-md-4">
+        <img src="https://icon-library.com/images/profiles-icon/profiles-icon-0.jpg" alt="User Profile Picture" class="img-fluid">
+      </div>
+      <div class="col-md-8">
+        <h2 class="profile text-center">User Profile</h2>
+        <ul>
+          <li><strong>Full Name     :</strong> {{ patientList.FullName }}</li>
+          <li><strong>Patient Id    :</strong> {{ patientList.PatientId }}</li>
+          <li><strong>Date of Birth  :</strong> {{ patientList.DOB | date:"dd/MM/yyyy" }}</li>
+          <li><strong>Gender    :</strong> {{ patientList.Gender }}</li>
+          <li><strong>Contact Number   :</strong> {{ patientList.ContactNumber }}</li>
+          <li><strong>Username    :</strong> {{ patientList.UserName }}</li>
+          <div class="button-group">
+            <button (click)="fillForm(patientList)" class="btn btn-primary mr-2"><i class="bi bi-pencil-square"></i> Edit</button>
+            
+          </div>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+
+ 
+  <div class="containers" *ngIf="!onlyShowGetPatients">
+    <h1 class="text-center">Update Details</h1>
+    <form #form="ngForm" autocomplete="off" (submit)="onSubmit(form)" class="needs-validation" novalidate>
+      <input type="hidden" name="Id" [(ngModel)]="srv.patient.PatientId">
+     
+      <div class="row">
+        <div class="col-md-6 mb-3">
+          <label for="FullName" class="form-label">Full Name</label>
+          <div class="input-group">
+            <input id="FullName" name="FullName" #FullName="ngModel" [(ngModel)]="srv.patient.FullName" placeholder="Full Name" class="form-control" required />
+            <span class="input-group-text"><i class="bi bi-person"></i></span>
+            <div class="invalid-feedback">Full Name is required</div>
+          </div>
+        </div>
+       
+        <div class="col-md-6 mb-3">
+          <label for="ContactNumber" class="form-label">Contact Number</label>
+          <div class="input-group">
+            <input id="ContactNumber" name="ContactNumber" #ContactNumber="ngModel" [(ngModel)]="srv.patient.ContactNumber" placeholder="Contact Number" class="form-control" required maxlength="15" minlength="10" />
+            <span class="input-group-text"><i class="bi bi-telephone"></i></span>
+            <div class="invalid-feedback">Contact Number is required</div>
+          </div>
+        </div>
+      </div>
+     
+      <div class="row">
+        <div class="col-md-6 mb-3">
+          <label for="DOB" class="form-label">Date of Birth</label>
+          <div class="input-group">
+            <input id="DOB" name="DOB" #DOB="ngModel" [(ngModel)]="srv.patient.DOB" placeholder="yyyy-MM-dd" class="form-control" required maxlength="10" minlength="10" />
+            <span class="input-group-text"><i class="bi bi-calendar"></i></span>
+            <div class="invalid-feedback">Date of Birth is required</div>
+          </div>
+        </div>
+       
+        <div class="col-md-6 mb-3">
+          <label for="Gender" class="form-label">Gender</label>
+          <div class="input-group">
+            <select id="Gender" name="Gender" #Gender="ngModel" [(ngModel)]="srv.patient.Gender" placeholder="Gender" class="form-control" required>
+              <option value="" disabled selected>Select Gender</option>
+              <option value="male">Male</option>
+              <option value="female">Female</option>
+              <option value="other">Other</option>
+            </select>
+            <span class="input-group-text"><i class="bi bi-gender"></i></span>
+            <div class="invalid-feedback">Gender is required</div>
+          </div>
+        </div>
+      </div>
+     
+      <div class="row">
+        <div class="col-md-6 mb-3">
+          <label for="UserName" class="form-label">User Name</label>
+          <div class="input-group">
+            <input id="UserName" name="UserName" #UserName="ngModel" [(ngModel)]="srv.patient.UserName" placeholder="User Name" class="form-control" required />
+            <span class="input-group-text"><i class="bi bi-person-circle"></i></span>
+            <div class="invalid-feedback">User Name is required</div>
+          </div>
+        </div>
+      </div>
+     
+      <div class="button">
+        <button class="btn btn-primary btn-center" type="submit" [disabled]="form.invalid">
+          <i class="bi bi-save"></i> Update
+        </button>
+      </div>
+    </form>
+  </div>
+ 
+

@@ -1,0 +1,97 @@
+
+  <div class="container" *ngIf="onlyShowGetDoctors">
+    <div class="row">
+      <div class="col-md-4 mb-4" *ngFor="let p of doctorLst">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">{{ p.Name }}</h5>
+            <h6 class="card-subtitle mb-2 text-muted">Doctor ID: {{ p.DoctorId }}</h6>
+            <p class="card-text"><strong>Specialty:</strong> {{ p.Specialty }}</p>
+            <p class="card-text"><strong>Experience Years:</strong> {{ p.ExperienceYears }}</p>
+            <p class="card-text"><strong>Qualification:</strong> {{ p.Qualification }}</p>
+            <p class="card-text"><strong>Designation:</strong> {{ p.Designation }}</p>
+            <p class="card-text"><strong>Username:</strong> {{ p.UserName }}</p>
+            <div class="button-group">
+              <button (click)="fillForm(p)" class="btn btn-success mr-2"><i class="bi bi-pencil-square"></i> Edit</button>
+              <button (click)="delDoctor(p.DoctorId)" class="btn btn-danger"><i class="bi bi-trash"></i> Delete</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  
+  <div class="containers" *ngIf="!onlyShowGetDoctors">
+    <form #form="ngForm" autocomplete="off" (submit)="onSubmit(form)" class="needs-validation" novalidate>
+      <input type="hidden" name="Id" [value]="srv.doctors.DoctorId">
+      
+      <div class="row">
+        <div class="col-md-6 mb-3">
+          <label for="Name" class="form-label">Name</label>
+          <div class="input-group">
+            <input id="Name" name="Name" #Name="ngModel" [(ngModel)]="srv.doctors.Name" placeholder="Name" class="form-control" required />
+            <span class="input-group-text"><i class="bi bi-person"></i></span>
+            <div class="invalid-feedback">Name is required</div>
+          </div>
+        </div>
+        
+        <div class="col-md-6 mb-3">
+          <label for="Specialty" class="form-label">Specialty</label>
+          <div class="input-group">
+            <input id="Specialty" name="Specialty" #Specialty="ngModel" [(ngModel)]="srv.doctors.Specialty" placeholder="Specialty" class="form-control" required />
+            <span class="input-group-text"><i class="bi bi-tag"></i></span>
+            <div class="invalid-feedback">Specialty is required</div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="row">
+        <div class="col-md-6 mb-3">
+          <label for="ExperienceYears" class="form-label">Experience Years</label>
+          <div class="input-group">
+            <input id="ExperienceYears" name="ExperienceYears" #ExperienceYears="ngModel" [(ngModel)]="srv.doctors.ExperienceYears" placeholder="ExperienceYears" class="form-control" required />
+            <span class="input-group-text"><i class="bi bi-clock"></i></span>
+            <div class="invalid-feedback">Experience Years is required</div>
+          </div>
+        </div>
+        
+        <div class="col-md-6 mb-3">
+          <label for="Qualification" class="form-label">Qualification</label>
+          <div class="input-group">
+            <input id="Qualification" name="Qualification" #Qualification="ngModel" [(ngModel)]="srv.doctors.Qualification" placeholder="Qualification" class="form-control" required />
+            <span class="input-group-text"><i class="bi bi-award"></i></span>
+            <div class="invalid-feedback">Qualification is required</div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="row">
+        <div class="col-md-6 mb-3">
+          <label for="Designation" class="form-label">Designation</label>
+          <div class="input-group">
+            <input id="Designation" name="Designation" #Designation="ngModel" [(ngModel)]="srv.doctors.Designation" placeholder="Designation" class="form-control" required />
+            <span class="input-group-text"><i class="bi bi-badge"></i></span>
+            <div class="invalid-feedback">Designation is required</div>
+          </div>
+        </div>
+        
+        <div class="col-md-6 mb-3">
+          <label for="UserName" class="form-label">User Name</label>
+          <div class="input-group">
+            <input id="UserName" name="UserName" #UserName="ngModel" [(ngModel)]="srv.doctors.UserName" placeholder="UserName" class="form-control" required />
+            <span class="input-group-text"><i class="bi bi-person-circle"></i></span>
+            <div class="invalid-feedback">UserName is required</div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="button">
+        <button class="btn btn-primary btn-center" type="submit" [disabled]="form.invalid">
+          <i class="bi bi-save"></i> Update
+        </button>
+      </div>
+    </form>
+  </div>
+  
+  

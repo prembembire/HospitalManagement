@@ -1,0 +1,20 @@
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-4" *ngFor="let p of getPApp.medRecords">
+      <div class="card mb-3">
+        <div class="card-header">
+          <h5 class="card-title">{{ p.PatientName }}</h5>
+        </div>
+        <div class="card-body">
+          <p class="card-text"><strong>Doctor Name:</strong> {{ p.DoctorName }}</p>
+          <p class="card-text"><strong>Symptoms:</strong> {{ p.Symptoms }}</p>
+	        <p class="card-text"><strong>Treatment:</strong> {{ p.Treatment }}</p>
+          <p class="card-text"><strong>TestDone:</strong> {{ p.TestDone }}</p>
+          <p class="card-text"><strong>Prescription:</strong> {{ p.Prescription }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div> 
+

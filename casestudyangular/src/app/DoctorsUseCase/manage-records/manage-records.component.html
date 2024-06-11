@@ -1,0 +1,277 @@
+
+  <div class="container" *ngIf="onlyShowGetMedicalRecords">
+    <div class="row">
+      <div class="col-md-4" *ngFor="let p of medList">
+        <div class="card mb-3">
+          <div class="card-header"><h5 class="card-title">RecordId : {{p.RecordId }}</h5></div>
+          <div class="card-body">
+            <!-- <p class="card-text"><strong>RecordId:</strong>{{ p.RecordId }}</p> -->
+            <p class="card-text">
+              <strong>PatientId:</strong>{{ p.PatientId }}
+            </p>
+            <p class="card-text">
+              <strong>AppointmentId:</strong>{{ p.AppointmentId }}
+            </p>
+            <p class="card-text"><strong>Symptoms:</strong>{{ p.Symptoms }}</p>
+            <p class="card-text">
+              <strong>PhysicalExamination:</strong>{{ p.PhysicalExamination }}
+            </p>
+            <p class="card-text">
+              <strong>TreatmentPlan:</strong>{{ p.TreatmentPlan }}
+            </p>
+            <p class="card-text">
+              <strong>Prescription:</strong>{{ p.Prescription }}
+            </p>
+            <button (click)="fillForm(p)" class="btn btn-success">
+              Update
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <form
+    *ngIf="!onlyShowGetMedicalRecords"
+    #form="ngForm"
+    autocomplete="off"
+    (submit)="onSubmit(form)"
+  >
+    <input type="hidden" name="Id" [value]="srv.list.RecordId" />
+
+    <div class="row">
+      <div class="col-md-6">
+        <div class="form-group">
+          <label for="PatientId">Patient ID</label>
+          <div class="input-group">
+            <div class="input-group-prepend">
+              <div>
+                <i
+                  aria-hidden="true"
+                  [class.green-icon]="PatientId.valid"
+                  [class.red-icon]="PatientId.invalid && PatientId.touched"
+                ></i>
+              </div>
+            </div>
+            <input
+              id="PatientId"
+              name="PatientId"
+              #PatientId="ngModel"
+              [(ngModel)]="srv.list.PatientId"
+              placeholder="PatientId"
+              class="form-control"
+              required
+            />
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="form-group">
+          <label for="DoctorId">Doctor ID</label>
+          <div class="input-group">
+            <div class="input-group-prepend">
+              <div>
+                <i
+                  aria-hidden="true"
+                  [class.green-icon]="DoctorId.valid"
+                  [class.red-icon]="DoctorId.invalid && DoctorId.touched"
+                ></i>
+              </div>
+            </div>
+            <input
+              id="DoctorId"
+              name="DoctorId"
+              #DoctorId="ngModel"
+              [(ngModel)]="srv.list.DoctorId"
+              placeholder="DoctorId"
+              class="form-control"
+              required
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-6">
+        <div class="form-group">
+          <label for="AppointmentId">Appointment ID</label>
+          <div class="input-group">
+            <div class="input-group-prepend">
+              <div>
+                <i
+                  aria-hidden="true"
+                  [class.green-icon]="AppointmentId.valid"
+                  [class.red-icon]="
+                    AppointmentId.invalid && AppointmentId.touched
+                  "
+                ></i>
+              </div>
+            </div>
+            <input
+              id="AppointmentId"
+              name="AppointmentId"
+              #AppointmentId="ngModel"
+              [(ngModel)]="srv.list.AppointmentId"
+              placeholder="AppointmentId"
+              class="form-control"
+              required
+            />
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="form-group">
+          <label for="Symptoms">Symptoms</label>
+          <div class="input-group">
+            <div class="input-group-prepend">
+              <div>
+                <i
+                  aria-hidden="true"
+                  [class.green-icon]="Symptoms.valid"
+                  [class.red-icon]="Symptoms.invalid && Symptoms.touched"
+                ></i>
+              </div>
+            </div>
+            <input
+              id="Symptoms"
+              name="Symptoms"
+              #Symptoms="ngModel"
+              [(ngModel)]="srv.list.Symptoms"
+              placeHolder="Symptoms"
+              class="form-control"
+              required
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-6">
+        <div class="form-group">
+          <label for="PhysicalExamination">Physical Examination</label>
+          <div class="input-group">
+            <div class="input-group-prepend">
+              <div>
+                <i
+                  aria-hidden="true"
+                  [class.green-icon]="PhysicalExamination.valid"
+                  [class.red-icon]="
+                    PhysicalExamination.invalid && PhysicalExamination.touched
+                  "
+                ></i>
+              </div>
+            </div>
+            <input
+              id="PhysicalExamination"
+              name="PhysicalExamination"
+              #PhysicalExamination="ngModel"
+              [(ngModel)]="srv.list.PhysicalExamination"
+              placeholder="PhysicalExamination"
+              class="form-control"
+              required
+            />
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="form-group">
+          <label for="TreatmentPlan">Treatment Plan</label>
+          <div class="input-group">
+            <div class="input-group-prepend">
+              <div>
+                <i
+                  aria-hidden="true"
+                  [class.green-icon]="TreatmentPlan.valid"
+                  [class.red-icon]="
+                    TreatmentPlan.invalid && TreatmentPlan.touched
+                  "
+                ></i>
+              </div>
+            </div>
+            <input
+              id="TreatmentPlan"
+              name="TreatmentPlan"
+              #TreatmentPlan="ngModel"
+              [(ngModel)]="srv.list.TreatmentPlan"
+              placeholder="TreatmentPlan"
+              class="form-control"
+              required
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-6">
+        <div class="form-group">
+          <label for="TestsRecommended">Tests Recommended</label>
+          <div class="input-group">
+            <div class="input-group-prepend">
+              <div>
+                <i
+                  aria-hidden="true"
+                  [class.green-icon]="TestsRecommended.valid"
+                  [class.red-icon]="
+                    TestsRecommended.invalid && TestsRecommended.touched
+                  "
+                ></i>
+              </div>
+            </div>
+            <input
+              id="TestsRecommended"
+              name="TestsRecommended"
+              #TestsRecommended="ngModel"
+              [(ngModel)]="srv.list.TestsRecommended"
+              placeholder="TestsRecommended"
+              class="form-control"
+              required
+            />
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="form-group">
+          <label for="Prescription">Prescription</label>
+          <div class="input-group">
+            <div class="input-group-prepend">
+              <div>
+                <i
+                  aria-hidden="true"
+                  [class.green-icon]="Prescription.valid"
+                  [class.red-icon]="
+                    Prescription.invalid && Prescription.touched
+                  "
+                ></i>
+              </div>
+            </div>
+            <input
+              id="Prescription"
+              name="Prescription"
+              #Prescription="ngModel"
+              [(ngModel)]="srv.list.Prescription"
+              placeHolder="Prescription"
+              class="form-control"
+              required
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="form-group">
+      <button
+        class="btn btn-success btn-lg text-center"
+        type="submit"
+        [disabled]="form.invalid"
+      >
+        <i ></i>Update
+      </button>
+    </div>
+  </form>

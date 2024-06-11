@@ -1,0 +1,87 @@
+ 
+ <div class="container" *ngIf="onlyShowGetAppointments">
+    <div class="row">
+      <div class="col-md-4 mb-3" *ngFor="let p of appList">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Appointment ID: {{ p.AppointmentId }}</h5>
+            <p class="card-text"><strong>Patient ID:</strong> {{ p.PatientId }}</p>
+            <p class="card-text"><strong>Doctor ID:</strong> {{ p.DoctorId }}</p>
+            <p class="card-text"><strong>Appointment Date:</strong> {{ p.AppointmentDate | date:'short' }}</p>
+            <p class="card-text"><strong>Status:</strong> {{ p.Status }}</p>
+            <p class="card-text"><strong>Nature of Visit:</strong> {{ p.VisitType }}</p>
+            <div class="button-group">
+              <button (click)="fillForm(p)" class="btn btn-success mr-2"><i class="bi bi-pencil-square"></i> Reschedule</button>
+              <button (click)="delRecord(p.AppointmentId)" class="btn btn-danger"><i class="bi bi-trash"></i> Cancel</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  
+  <div class="containers" *ngIf="!onlyShowGetAppointments">
+    <form #form="ngForm" autocomplete="off" (submit)="onSubmit(form)" class="needs-validation" novalidate>
+      <input type="hidden" name="Id" [value]="srv.list.AppointmentId">
+      
+      <div class="row">
+        <div class="col-md-6 mb-3">
+          <label for="PatientId" class="form-label">Patient ID</label>
+          <div class="input-group">
+            <input id="PatientId" name="PatientId" #PatientId="ngModel" [(ngModel)]="srv.list.PatientId" placeholder="Patient ID" class="form-control" required />
+            <span class="input-group-text"><i class="bi bi-person"></i></span>
+            <div class="invalid-feedback">Patient ID is required</div>
+          </div>
+        </div>
+        
+        <div class="col-md-6 mb-3">
+          <label for="DoctorId" class="form-label">Doctor ID</label>
+          <div class="input-group">
+            <input id="DoctorId" name="DoctorId" #DoctorId="ngModel" [(ngModel)]="srv.list.DoctorId" placeholder="Doctor ID" class="form-control" required />
+            <span class="input-group-text"><i class="bi bi-person"></i></span>
+            <div class="invalid-feedback">Doctor ID is required</div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="row">
+        <div class="col-md-6 mb-3">
+          <label for="AppointmentDate" class="form-label">Appointment Date</label>
+          <div class="input-group">
+            <input id="AppointmentDate" name="AppointmentDate" #AppointmentDate="ngModel" [(ngModel)]="srv.list.AppointmentDate" placeholder="Appointment Date" class="form-control" required />
+            <span class="input-group-text"><i class="bi bi-calendar"></i></span>
+            <div class="invalid-feedback">Appointment Date is required</div>
+          </div>
+        </div>
+        
+        <div class="col-md-6 mb-3">
+          <label for="Status" class="form-label">Status</label>
+          <div class="input-group">
+            <input id="Status" name="Status" #Status="ngModel" [(ngModel)]="srv.list.Status" placeholder="Status" class="form-control" required />
+            <span class="input-group-text"><i class="bi bi-info-circle"></i></span>
+            <div class="invalid-feedback">Status is required</div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="row">
+        <div class="col-md-6 mb-3">
+          <label for="VisitType" class="form-label">Visit Type</label>
+          <div class="input-group">
+            <input id="VisitType" name="VisitType" #VisitType="ngModel" [(ngModel)]="srv.list.VisitType" placeholder="Visit Type" class="form-control" required />
+            <span class="input-group-text"><i class="bi bi-person"></i></span>
+            <div class="invalid-feedback">Visit Type is required</div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="button">
+        <button class="btn btn-primary btn-center" type="submit" [disabled]="form.invalid">
+          <i class="bi bi-save"></i> Update
+        </button>
+      </div>
+      
+      
+    </form>
+  </div>

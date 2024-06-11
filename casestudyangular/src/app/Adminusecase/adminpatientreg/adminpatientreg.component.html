@@ -1,0 +1,80 @@
+<div class="backgroundimg">
+  <img src="../../../assets/Images/Bg_Image_1.avif"/>
+</div>
+<div class="container">
+  <h2 class="heading">Patient Registration</h2>
+    <form #form="ngForm" autocomplete="off" (submit)="onSubmit(form)" class="needs-validation" novalidate>
+      <input type="hidden" name="Id" [value]="psv.patient.PatientId">
+  
+      <div class="row">
+        <div class="col-md-6 mb-3">
+          <label for="FullName" class="form-label">Full Name</label>
+          <div class="input-group">
+            <input id="FullName" name="FullName" #FullName="ngModel" [(ngModel)]="psv.patient.FullName" placeholder="Full Name" class="form-control" required />
+            <span class="input-group-text"><i class="bi bi-person"></i></span>
+            <div class="invalid-feedback">Full Name is required</div>
+          </div>
+        </div>
+  
+        <div class="col-md-6 mb-3">
+          <label for="ContactNumber" class="form-label">Contact Number</label>
+          <div class="input-group">
+            <input id="ContactNumber" name="ContactNumber" #ContactNumber="ngModel" [(ngModel)]="psv.patient.ContactNumber" placeholder="Contact Number" class="form-control" required maxlength="10" minlength="10" />
+            <span class="input-group-text"><i class="bi bi-telephone"></i></span>
+            <div class="invalid-feedback">Contact Number is required and must be 10 digits</div>
+          </div>
+        </div>
+      </div>
+  
+      <div class="row">
+        <div class="col-md-6 mb-3">
+          <label for="DOB" class="form-label">Date of Birth</label>
+          <div class="input-group">
+            <input id="DOB" type="date" name="DOB" #DOB="ngModel" [(ngModel)]="psv.patient.DOB" placeholder="yyyy-MM-dd" class="form-control" required />
+            <span class="input-group-text"><i class="bi bi-calendar"></i></span>
+            <div class="invalid-feedback">Date of Birth is required</div>
+          </div>
+        </div>
+  
+        <div class="col-md-6 mb-3">
+          <label for="Gender" class="form-label">Gender</label>
+          <div class="input-group">
+            <select id="Gender" name="Gender" #Gender="ngModel" [(ngModel)]="psv.patient.Gender" placeHolder="Gender" class="form-control" required>
+              <option value="" disabled selected>Select Gender</option>
+              <option value="male">Male</option>
+              <option value="female">Female</option>
+              <option value="other">Other</option>
+            </select>
+            <span class="input-group-text"><i class="bi bi-gender"></i></span>
+            <div class="invalid-feedback">Gender is required</div>
+          </div>
+        </div>
+      </div>
+  
+      <div class="row">
+        <div class="col-md-6 mb-3">
+          <label for="UserName" class="form-label">User Name</label>
+          <div class="input-group">
+            <input id="UserName" name="UserName" #UserName="ngModel" [(ngModel)]="psv.patient.UserName" placeholder="User Name" class="form-control" required />
+            <span class="input-group-text"><i class="bi bi-person-circle"></i></span>
+            <div class="invalid-feedback">User Name is required</div>
+          </div>
+        </div>
+  
+        <div class="col-md-6 mb-3">
+          <label for="Password" class="form-label">Password</label>
+          <div class="input-group">
+            <input id="Password" type="password" name="Password" #Password="ngModel" [(ngModel)]="psv.patient.Password" placeholder="Password" class="form-control" required />
+            <span class="input-group-text"><i class="bi bi-lock"></i></span>
+            <div class="invalid-feedback">Password is required</div>
+          </div>
+        </div>
+      </div>
+  
+      <div class="button">
+        <button class="btn btn-primary btn-center" type="submit" [disabled]="form.invalid">
+          <i class="bi bi-save"></i> Submit
+        </button>
+      </div>
+    </form>
+  </div>
